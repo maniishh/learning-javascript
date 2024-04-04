@@ -1,0 +1,252 @@
+
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body{
+    background-color:  #414244;
+}
+div{
+    width:70px;
+    height:50px;
+    background-color: #131a2c;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+    margin-top: 3px;
+    border-radius:5px;
+     font-weight: 450;
+     box-shadow: 3px 3px 7px #000000;
+     border-bottom: 1px solid white;
+     border-left: 1px solid white;
+    
+    
+}
+#main-cal{
+    height: 560px;
+    width:320px;
+    background-color :#1d2333;
+    margin-top:4px;
+    border: none;
+    border-radius: 5px; 
+    box-shadow:2px  2px 6px  black;
+     
+    
+}
+ #cover{
+    height: 620px;
+    margin-top: 20px;
+    width:320px;
+    margin-left: 300px;
+    background-color: #c6bfbf6c;
+    border-radius: 3%;
+    border: none;
+    box-shadow:3px  3px 7px  black;
+
+}
+#ui4{
+    background-color: white;
+   
+    height:20px;
+    width:30px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius:30px;
+    color:rgb(6, 6, 6);
+    padding-bottom: 5px;
+   
+    
+}
+.ui2{ 
+    width:144px;
+    background-color:rgb(103, 4, 196)
+}
+.ui5{
+    width:144px;
+    background-color:rgb(245, 158, 7)
+}
+.ui3{
+    background-color: rgb(13, 161, 72);;
+}
+.button-part{
+    position:relative;
+    top:30px;
+}
+.text{
+    color:white;
+    display:flex;
+    margin-top:5px;
+    text-shadow: 3px 3px 7px #000000;
+}
+#name{
+    font-size:18px;
+    font-weight:300;
+    font-family: "Poppins", sans-serif;
+}
+#neg-sign,#d,#x{
+    position: relative;
+    left:60px;
+    margin-left:30px;
+    color: #8595bc;
+}
+.icons{
+    color:rgb(235, 234, 234);
+    display:flex;
+justify-content:space-around;
+margin-bottom: 7px;
+text-shadow: 3px 3px 7px #000000;
+}
+.bottom-icons{
+    color:rgb(235, 234, 234);
+    display:flex;
+justify-content:space-between;
+margin-bottom: 5px;
+margin-top: 8px;
+text-shadow: 3px 3px 7px #000000;
+
+
+}
+#settings{
+    color:rgb(32, 236, 32);
+}
+ 
+
+h3{
+    font-weight: 400;
+}
+h1{
+    font-size: 30px;
+}
+.icons:hover{
+    cursor:pointer;
+}
+div:hover{
+    background-color:#0b0b0b;
+
+} 
+
+div:active{
+    background-color: #131a2c;
+    border-bottom: 1px solid #131a2c ;
+    border-left: 1px solid #131a2c ;
+    border-top: 1px solid #ffffff ;
+    border-right: 1px solid #ffffff ;
+    
+}
+ #settings:hover{
+    box-shadow: 2px 2px 6px hsl(107, 100%, 3%);
+ }
+ #github:hover{
+    box-shadow: 2px 2px 6px  hsl(107, 100%, 3%);
+ }
+ #youtube:hover{
+    box-shadow: 2px 2px 6px hsl(107, 100%, 3%);
+ }
+ #web:hover{
+    box-shadow: 2px 2px 6px  hsl(107, 100%, 3%);
+ }
+ #linkden:hover{
+    box-shadow: 2px 2px 6px hsl(107, 100%, 3%);
+ }
+ #settings:active{
+    background-color:#131a2c;
+}
+ 
+ #github:active{
+    background-color:#131a2c;
+ }
+ #youtube:active{ 
+    background-color:#131a2c;
+ }
+ #web:active{
+    background-color:#131a2c;
+ }
+ #linkden:active{
+    background-color:#131a2c;
+ }
+ #home:hover{
+    border-radius: 70%;
+    color:black;
+    background-color: white;
+    cursor:pointer;
+ }
+ #done:hover{
+    border-radius: 70%;
+    color:black;
+    background-color: white;
+    cursor:pointer;
+ }
+ #night:hover{
+    border-radius: 70%;
+    color:black;
+    background-color: white;
+    cursor:pointer;
+ }
+ #d:hover{
+    font-size: larger;
+    cursor:pointer;
+ }
+ #neg-sign:hover{
+    
+    font-size: larger;
+    cursor:pointer;  
+     
+ }
+ #x:hover{
+    font-size: larger;
+    cursor:pointer;
+ }
+ 
+ /*#cover:hover{
+    background-color:#131a2c;
+    #mode-on{
+        color:green;
+        background-color: #131a2c;
+        
+    }
+    #mode-off{
+        color: #131a2c ;
+        background-color: #131a2c;
+        
+    }
+}*/
+ 
+ #mode-on{
+    position: relative;
+    top:10px;
+    left:127px;
+    height:30px;
+    width: 50px;
+    border-radius: 30%;
+    background-color: rgb(63, 4, 4);
+color: white;
+     border: none;
+     box-shadow: 1px 1px 6px black;
+    font-weight: 700;
+    font-size: 15px;
+ }
+  
+ #display{
+    width: 290px;
+    position: relative;
+    top:15px;
+    height: 150px;
+    background-color:#434843f1;
+    border: 1px solid white;
+    color: white;
+    font-size: 28px;
+    border-radius: 5px;
+
+ }
+ .dark{
+    background-color:#1d2333;
+    
+}
+.light{
+    background-color:#8595bc;
+    
+}

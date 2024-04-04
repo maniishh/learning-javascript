@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet"href="calculator.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <fieldset id="cover">
+    <fieldset id="main-cal">
+        <section class="text">
+            <span class="material-symbols-outlined">calculate
+                </span>
+            <h2 id="name">Calculator</h2>
+            <span id="neg-sign">-</span>
+            <span id="d">D</span>
+            <span id="x">X</span>
+
+
+        </section>
+        <section class="calculation">
+           
+            <input id="display"readonly>
+        
+        </section>
+        
+    
+        <section class="button-part">
+            <section class="icons">
+                <span class="material-symbols-outlined" id="settings">
+                    settings
+                    </span>
+                    <i class="fa fa-github"style="font-size:24px" id="github"></i>
+                    <span class="material-symbols-outlined" id="youtube">
+                        youtube_activity
+                        </span>
+                        <span class="material-symbols-outlined"id="web">
+                            language
+                  </span>
+                <i class="fa fa-linkedin-square"style="font-size:24px"id="linkden"></i>
+    
+            </section>
+        <section class="main">
+        <div class="ui"onclick="appendToDisplay('%')">%</div>
+        <div class="ui"onclick="clearDisplay()">C</div>
+        <div class="ui2">
+            <div id="ui4"onclick="backspace('x')">x</div>
+        </div>
+        <div class="ui" value="7" onclick="appendToDisplay('7')">7</div>
+        <div class="ui"value="8" onclick="appendToDisplay('8')">8</div>
+        <div class="ui"onclick="appendToDisplay('9')">9</div>
+        <div class="ui3"onclick="appendToDisplay('*')" >X</div>
+        <div class="ui"onclick="appendToDisplay('4')">4</div>
+        <div class="ui"onclick="appendToDisplay('5')">5</div>
+        <div class="ui"onclick="appendToDisplay('6')">6</div>
+        <div class="ui3"onclick="appendToDisplay('-')">-</div>
+        <div class="ui"onclick="appendToDisplay('1')">1</div>
+        <div class="ui"onclick="appendToDisplay('2')">2</div>
+        <div class="ui"onclick="appendToDisplay('3')">3</div>
+        <div class="ui3"onclick="appendToDisplay('+')">+</div>
+        <div class="ui"onclick="appendToDisplay('0')">0</div>
+        <div class="ui"onclick="appendToDisplay('.')">.</div>
+        <div class="ui5"onclick="calculate( )">=</div>
+    </section>
+        <section class="bottom-icons">
+            <span class="material-symbols-outlined"id="done">
+                done_outline
+                </span> 
+                <span class="material-symbols-outlined" id="home">
+                    home
+                    </span>
+                    <span class="material-symbols-outlined"id="night">
+                        clear_night
+                        </span>
+        </section>
+
+    </section>
+       
+        
+    </fieldset>
+    <button type="button"id="mode-on">ON</button>
+     
+</fieldset>
+<script src="calculator.js"></script>
+</body>
+</html>
